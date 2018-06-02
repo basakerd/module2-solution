@@ -6,7 +6,7 @@
 <style>
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin: 5;
   padding: 0;
 }
 body {
@@ -15,17 +15,42 @@ body {
 #box {
   background-color: blue;
   padding: 10px;
-  border: 5px solid black;
-  width: 300px;
-  height: 50px;
+  border: 2px solid black;
+  width: 350px;
+  height: 200px;
   margin-top: 50px;
-  overflow: auto;
+  margin-left: 50px;
+
+ 
+
 }
+
+#inside_box {
+  background-color: red;
+  padding: 20px;
+  border: 1px solid black;
+  width: 37%;
+  height: 0;
+  margin-top: -10px;
+  margin-left: 215px;
+  text-align:center;
+  position: relative;
+ 
+  
+}
+
+
 #content {
-  background-color: #90EE90; /* green */
+  
 }
+#content_inside{
+
+
+}
+
 h1 {
   margin-bottom: 30px;
+   margin-left: 500px;
 }
 </style>
 </head>
@@ -34,8 +59,16 @@ h1 {
 <h1>Our Menu</h1>
 
 <div id="box">
-  <div id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error quis ab perspiciatis eos inventore recusandae iste itaque numquam facilis, tenetur. Doloribus officiis quae facilis, nisi, ex similique. Animi, perferendis. 
-  </div>
+  <div id="inside_box" > 
+    <div id="content_inside">Chicken</div>
+</div>
+
+  <div id="content">Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit, sed do eiusmod tempor incididunt 
+          ut labore et dolore magna alliqua.Ut enim ad 
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </div>
+
 </div>
 
 
